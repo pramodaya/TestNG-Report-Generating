@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/pramodaya/Desktop/git/testing/src/test/java"><classes><class name="API_Test.Test_Product"><methods><include name="test_getAllProductCategories"/><include name="test_getAllDataInProductCategory"/></methods></class></classes></test></suite>
