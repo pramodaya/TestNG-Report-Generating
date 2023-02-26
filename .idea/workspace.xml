@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1a77023-19eb-4c60-9ba0-0476e5b7412c" name="Changes" comment="Generated testng.xml file and report">
+    <list default="true" id="c1a77023-19eb-4c60-9ba0-0476e5b7412c" name="Changes" comment="add README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ProductCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ProductResp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Test/Test_Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Test/Test_Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WithReports">
+  <component name="RunManager" selected="TestNG.Test_Product.test_addProduct">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="testing" />
       <method v="2">
@@ -92,27 +99,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Product" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Product.test_addProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng-project" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="API_Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="API_Test" />
       <option name="MAIN_CLASS_NAME" value="API_Test.Test_Product" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="METHOD_NAME" value="test_addProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Product.test_getAllDataInProductCategoryCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Test" />
+      <option name="MAIN_CLASS_NAME" value="API_Test.Test_Product" />
+      <option name="METHOD_NAME" value="test_getAllDataInProductCategoryCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Product.test_getAllProductCategories" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Test" />
+      <option name="MAIN_CLASS_NAME" value="API_Test.Test_Product" />
+      <option name="METHOD_NAME" value="test_getAllProductCategories" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Product.test_getAllProductCategoriesList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Test" />
+      <option name="MAIN_CLASS_NAME" value="API_Test.Test_Product" />
+      <option name="METHOD_NAME" value="test_getAllProductCategoriesList" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,28 +212,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/pramodaya/Desktop/git/testing/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng-project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.TestSuite" />
       <item itemvalue="TestNG.WithReports" />
-      <item itemvalue="TestNG./Users/pramodaya/Desktop/git/testing/testng.xml" />
+      <item itemvalue="TestNG.Test_Product.test_addProduct" />
+      <item itemvalue="TestNG.Test_Product.test_getAllDataInProductCategoryCheck" />
+      <item itemvalue="TestNG.Test_Product.test_getAllProductCategories" />
+      <item itemvalue="TestNG.Test_Product.test_getAllProductCategoriesList" />
       <item itemvalue="TestNG.Test_Product.test_getProductById" />
-      <item itemvalue="TestNG.Test_Product" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_Product.test_addProduct" />
+        <item itemvalue="TestNG.Test_Product.test_getAllDataInProductCategoryCheck" />
+        <item itemvalue="TestNG.Test_Product.test_getAllProductCategories" />
+        <item itemvalue="TestNG.Test_Product.test_getAllProductCategoriesList" />
         <item itemvalue="TestNG.Test_Product.test_getProductById" />
-        <item itemvalue="TestNG./Users/pramodaya/Desktop/git/testing/testng.xml" />
-        <item itemvalue="TestNG.Test_Product" />
       </list>
     </recent_temporary>
   </component>
@@ -208,16 +254,40 @@
       <option name="project" value="LOCAL" />
       <updated>1676759579951</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="report generate">
+      <created>1676760666796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676760666796</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add README.md">
+      <created>1676760680202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676760680202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test cases add" />
     <MESSAGE value="Generated testng.xml file and report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated testng.xml file and report" />
+    <MESSAGE value="report generate" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="((LinkedHashMap) resp.getCategories().get(1)).get(&quot;category&quot;)" language="JAVA" custom="java.util.LinkedHashMap" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testing$WithReports.ic" NAME="WithReports Coverage Results" MODIFIED="1676760868296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/testing$TestSuite.ic" NAME="TestSuite Coverage Results" MODIFIED="1676757042562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/testing$Test_Product_test_getProductById.ic" NAME="Test_Product.test_getProductById Coverage Results" MODIFIED="1676758634606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>API_Test.*</FILTER>

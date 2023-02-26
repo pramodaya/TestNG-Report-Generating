@@ -1,15 +1,15 @@
 package model;
 
-public class Product {
+public class ProductResp {
     private float id;
     private String name;
-    private String description;
-    private String manufacturer;
+    private String description = null;
+    private String manufacturer = null;
     private String category;
-    private float price;
+    private String price = null;
     private String created;
     private String status;
-    private String tags;
+    private String tags = null;
 
 
     // Getter Methods
@@ -34,7 +34,7 @@ public class Product {
         return category;
     }
 
-    public float getPrice() {
+    public String getPrice() {
         return price;
     }
 
@@ -72,7 +72,7 @@ public class Product {
         this.category = category;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
@@ -87,32 +87,4 @@ public class Product {
     public void setTags(String tags) {
         this.tags = tags;
     }
-
-    public Product(float id, String name, String description, String manufacturer, String category, float price, String created, String status, String tags) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.manufacturer = manufacturer;
-        this.category = category;
-        this.price = price;
-        this.created = created;
-        this.status = status;
-        this.tags = tags;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", manufacturer='" + manufacturer + '\'' +
-                ", category='" + category + '\'' +
-                ", price=" + price +
-                ", created='" + created + '\'' +
-                ", status='" + status + '\'' +
-                ", tags='" + tags + '\'' +
-                '}';
-    }
 }
-
